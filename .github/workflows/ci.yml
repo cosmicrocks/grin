@@ -37,7 +37,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: yokiworks
           password: ${{ secrets.GITHUBTOKEN }}
 
       - name: Set up Docker Buildx
